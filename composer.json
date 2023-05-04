@@ -1,0 +1,41 @@
+{
+  "name": ":vendor_slug/:package_slug",
+  "type": "tastyigniter-extension",
+  "description": ":package_description",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": ":author_name",
+      "email": "author@domain.com"
+    }
+  ],
+  "keywords": [
+    ":vendor_name",
+    ":package_slug"
+  ],
+  "require-dev": {
+    "laravel/pint": "^1.2",
+    "pestphp/pest-plugin-laravel": "^2.0",
+    "pestphp/pest": "^2.5"
+  },
+  "extra": {
+    "tastyigniter-extension": {
+      "name": ":package_name",
+      "icon": {
+        "class": "fa fa-plug",
+        "color": "#fff",
+        "backgroundColor": "#000"
+      }
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/pest",
+    "test-coverage": "vendor/bin/pest --coverage",
+    "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
