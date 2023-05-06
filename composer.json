@@ -1,17 +1,17 @@
 {
-  "name": ":vendor_slug/:package_slug",
+  "name": "igniterlabs/ti-ext-vuejs",
   "type": "tastyigniter-extension",
-  "description": ":package_description",
+  "description": " Develop stunning, dynamic TastyIgniter themes with the power of Vue.js. ",
   "license": "MIT",
   "authors": [
     {
-      "name": ":author_name",
-      "email": "author@domain.com"
+      "name": "IgniterLabs",
+      "email": "hello@igniterlabs.co.uk"
     }
   ],
   "keywords": [
-    ":vendor_name",
-    ":package_slug"
+    "igniterlabs",
+    "ti-ext-vuejs"
   ],
   "require-dev": {
     "laravel/pint": "^1.2",
@@ -20,7 +20,8 @@
   },
   "extra": {
     "tastyigniter-extension": {
-      "name": ":package_name",
+      "code": "igniterlabs.vuejs",
+      "name": "Vue.js Themes for TastyIgniter",
       "icon": {
         "class": "fa fa-plug",
         "color": "#fff",
